@@ -1,0 +1,70 @@
+<html>
+<style>
+* {
+	font-family: sans-serif;
+}
+body {
+	background-color: #FDF3E7;
+	font-size:62.5%;
+	margin: 0;
+	color: gray;
+}
+@font-face {
+    font-family: "<%= name %>";
+    src: url('<%= name %>.ttf');
+}
+
+
+h1 {
+	background-color:  #C63D0F;
+	color: white;
+	padding: 0.5rem;
+	margin: 0;
+	border-bottom: 1px solid #FDF3E7;
+	box-shadow: 0 5px 0 #C63D0F;
+	margin-bottom: 5px;
+}
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+}
+li {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 4rem;
+	background-color: white;
+	padding: 0.5rem;
+	border: 1px solid lightgray;
+}
+li:hover {
+	background-color: #DEDEDE;
+}
+li i {
+	font-size: 3rem;
+	padding: 0.5rem;
+	font-family: "<%= name %>";
+	font-style: normal;
+	align-items: center;
+	color: black;
+	/*font-family: FontAwesome;*/
+}
+b {
+	font-weight: normal;
+	text-transform: uppercase;
+}
+</style>
+
+
+
+ <!--link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"-->
+<body>
+<h1><%= name %></h1>
+<ul>
+<% glyphs.forEach(function(glyph){ %>
+    <li><b>U+<%= decode(glyph.unicode) %></b><i><%= glyph.unicode %></i><%= glyph.name %> </li>
+  <% }); %>
+</ul>
+</body>
+</html>

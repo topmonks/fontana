@@ -1,0 +1,20 @@
+{
+  "name": "fontana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs": "^2.5.6",
+    "memory-stream": "0.0.3",
+    "svg2ttf": "^4.0.2",
+    "svgicons2svgfont": "^5.0.0",
+    "ttf2eot": "^2.0.0",
+    "ttf2woff": "^2.0.1",
+    "ttf2woff2": "^2.0.3"
+  }
+}
