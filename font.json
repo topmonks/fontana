@@ -164,7 +164,7 @@
       },
       {
          "unicode":[
-            "\uf02c"
+            "\uf02b"
          ],
          "name":"tag",
          "file":"awesome_tag"
@@ -227,6 +227,46 @@
 		],
 		"name":"save",
 		"file":"awesome_save"
-	 }
+
+	 },{
+		"unicode":[
+		   "\uf084"
+		],
+		"name":"key",
+		"file":"awesome_key"
+
+	 },{
+		"unicode":[
+		   "\uf126"
+		],
+		"name":"version",
+		"file":"awesome_code_fork"
+
+	 },{
+		"unicode":[
+		   "\uf09d"
+		],
+		"name":"idprovider",
+		"file":"awesome_credit_card"
+
+	 },{
+		"unicode":[
+		   "\uf107"
+		],
+		"name":"down",
+		"file":"awesome_angle_down"
+	 },{
+		"unicode":[
+		   "\uf1f8"
+		],
+		"name":"trash",
+		"file":"awesome_473"
+	 },{
+	   "unicode":[
+		  "\uf00c"
+	   ],
+	   "name":"check",
+	   "file":"awesome_ok"
+	}
    ]
 }
