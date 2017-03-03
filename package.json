@@ -2,7 +2,7 @@
   "name": "fontana",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,7 @@
     "svgicons2svgfont": "^5.0.0",
     "ttf2eot": "^2.0.0",
     "ttf2woff": "^2.0.1",
-    "ttf2woff2": "^2.0.3"
+    "ttf2woff2": "^2.0.3",
+	"commander": "^2.9.0"
   }
 }
