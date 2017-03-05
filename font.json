@@ -188,7 +188,7 @@
             "\uE001\uE008"
          ],
          "name":"lambda",
-         "file":"awesome_lambda"
+         "file":"lambda"
       },
       {
          "unicode":[
@@ -267,6 +267,51 @@
 	   ],
 	   "name":"check",
 	   "file":"awesome_ok"
-	}
+	 },{
+	   "unicode":[
+		  "\uf0eb"
+	   ],
+	   "name":"idea",
+	   "file":"awesome_light_bulb3"
+	 },{
+	   "unicode":[
+		  "\uf1b8"
+	   ],
+	   "name":"recycle",
+	   "file":"awesome_413"
+
+	 },{
+	   "unicode":[
+		  "\uf069"
+	   ],
+	   "name":"asterisk",
+	   "file":"awesome_asterisk"
+	 },{
+	   "unicode":[
+		  "\uf096"
+	   ],
+	   "name":"squareempty",
+	   "file":"awesome_check_empty"
+	 },{
+	   "unicode":[
+		  "\uf0c1"
+	   ],
+	   "name":"link",
+	   "file":"awesome_link"
+	 },{
+	   "unicode":[
+		  "\uf012"
+	   ],
+	   "name":"signal",
+	   "file":"awesome_signal"
+
+	 },{
+	   "unicode":[
+		  "\uf017"
+	   ],
+	   "name":"clock",
+	   "file":"awesome_time"
+	 }
+
    ]
 }

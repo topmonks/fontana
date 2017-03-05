@@ -20,7 +20,7 @@ h1 {
 	color: white;
 	padding: 0.5rem;
 	margin: 0;
-	border-bottom: 1px solid #FDF3E7;
+	border-bottom: 2px solid #FDF3E7;
 	box-shadow: 0 5px 0 #C63D0F;
 	margin-bottom: 5px;
 }
@@ -36,23 +36,25 @@ li {
 	flex-basis: 4rem;
 	background-color: white;
 	padding: 0.5rem;
-	border: 1px solid lightgray;
+	min-width: 4rem;
+	border: 1px solid #EFEFEF;
 }
 li:hover {
 	background-color: #DEDEDE;
 }
-li i {
+li div {
 	font-size: 3rem;
 	padding: 0.5rem;
 	font-family: "<%= name %>";
-	font-style: normal;
 	align-items: center;
 	color: black;
-	/*font-family: FontAwesome;*/
 }
 b {
 	font-weight: normal;
 	text-transform: uppercase;
+}
+i {
+	color: #C63D0F;
 }
 </style>
 
@@ -62,9 +64,7 @@ b {
 <body>
 <h1><%= name %></h1>
 <ul>
-<% glyphs.forEach(function(glyph){ %>
-    <li><b>U+<%= decode(glyph.unicode) %></b><i><%= glyph.unicode %></i><%= glyph.name %> </li>
-  <% }); %>
+	<% glyphs.forEach(function(glyph){ %><li><div><%= glyph.unicode %></div><i><%= glyph.name %><b></i>U+<%= decode(glyph.unicode) %></b></li><% }); %>
 </ul>
 </body>
 </html>
