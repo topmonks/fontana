@@ -272,7 +272,7 @@
 		  "\uf0eb"
 	   ],
 	   "name":"idea",
-	   "file":"awesome_light_bulb3"
+	   "file":"awesome_light_bulb"
 	 },{
 	   "unicode":[
 		  "\uf1b8"
@@ -311,6 +311,27 @@
 	   ],
 	   "name":"clock",
 	   "file":"awesome_time"
+
+	 },{
+	   "unicode":[
+		  "\uf0e0"
+	   ],
+	   "name":"envelope",
+	   "file":"awesome_envelope"
+	 },{
+	   "unicode":[
+		  "\uf095"
+	   ],
+	   "name":"phone",
+	   "file":"awesome_phone"
+
+
+	 },{
+	   "unicode":[
+		  "\uf01e"
+	   ],
+	   "name":"repeat",
+	   "file":"awesome_repeat"
 	 }
 
    ]
