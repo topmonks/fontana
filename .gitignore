@@ -2,3 +2,5 @@
 /node_modules
 /material
 /generated
+/.idea
+*.iml
