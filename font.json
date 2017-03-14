@@ -1,425 +1,344 @@
 {
-  "name": "Superadmin",
-  "glyphs": [
-    {
-      "unicode": [
-        "\uF1E6"
-      ],
-      "name": "backend",
-      "file": "awesome_456"
-    },
-    {
-      "unicode": [
-        "\uf067"
-      ],
-      "name": "plus",
-      "file": "awesome_plus"
-    },
-    {
-      "unicode": [
-        "\uf055"
-      ],
-      "name": "plus_sign",
-      "file": "awesome_plus_sign"
-    },
-    {
-      "unicode": [
-        "\uf002"
-      ],
-      "name": "search",
-      "file": "awesome_search"
-    },
-    {
-      "unicode": [
-        "\uf0fb"
-      ],
-      "name": "fighter_jet",
-      "file": "awesome_fighter_jet"
-    },
-    {
-      "unicode": [
-        "\uf00d"
-      ],
-      "name": "remove",
-      "file": "awesome_remove"
-    },
-    {
-      "unicode": [
-        "\uf05b"
-      ],
-      "name": "endpoint",
-      "file": "awesome_screenshot"
-    },
-    {
-      "unicode": [
-        "\uf12e"
-      ],
-      "name": "template",
-      "file": "awesome_puzzle_piece"
-    },
-    {
-      "unicode": [
-        "\uf023"
-      ],
-      "name": "lock",
-      "file": "awesome_lock"
-    },
-    {
-      "unicode": [
-        "\uf09c"
-      ],
-      "name": "unlock",
-      "file": "awesome_unlock"
-    },
-    {
-      "unicode": [
-        "\uf13e"
-      ],
-      "name": "unlock_alt",
-      "file": "awesome_unlock_alt"
-    },
-    {
-      "unicode": [
-        "\uf0ee"
-      ],
-      "name": "cloud_upload",
-      "file": "awesome_cloud_upload"
-    },
-    {
-      "unicode": [
-        "\uf0ed"
-      ],
-      "name": "cloud_download",
-      "file": "awesome_cloud_download"
-    },
-    {
-      "unicode": [
-        "\uf179"
-      ],
-      "name": "apple",
-      "file": "awesome_apple"
-    },
-    {
-      "unicode": [
-        "\uf17b"
-      ],
-      "name": "android",
-      "file": "awesome_android"
-    },
-    {
-      "unicode": [
-        "\uf071"
-      ],
-      "name": "warning_sign",
-      "file": "awesome_warning_sign"
-    },
-    {
-      "unicode": [
-        "\uf283"
-      ],
-      "name": "credit_card",
-      "file": "awesome_credit_card"
-    },
-    {
-      "unicode": [
-        "\uf15b"
-      ],
-      "name": "file",
-      "file": "awesome_file"
-    },
-    {
-      "unicode": [
-        "\uf0c5"
-      ],
-      "name": "copy",
-      "file": "awesome_copy"
-    },
-    {
-      "unicode": [
-        "\uf013"
-      ],
-      "name": "cog",
-      "file": "awesome_cog"
-    },
-    {
-      "unicode": [
-        "\uf085"
-      ],
-      "name": "cogs",
-      "file": "awesome_cogs"
-    },
-    {
-      "unicode": [
-        "\uf08b"
-      ],
-      "name": "signout",
-      "file": "awesome_signout"
-    },
-    {
-      "unicode": [
-        "\uf0b0"
-      ],
-      "name": "filter",
-      "file": "awesome_filter"
-    },
-    {
-      "unicode": [
-        "\uf02b"
-      ],
-      "name": "tag",
-      "file": "awesome_tag"
-    },
-    {
-      "unicode": [
-        "\uf005"
-      ],
-      "name": "star",
-      "file": "awesome_star"
-    },
-    {
-      "unicode": [
-        "\uf006"
-      ],
-      "name": "star-o",
-      "file": "awesome_star_empty"
-    },
-    {
-      "unicode": [
-        "\u03BB"
-      ],
-      "name": "lambda",
-      "file": "lambda"
-    },
-    {
-      "unicode": [
-        "\uf09b"
-      ],
-      "name": "github",
-      "file": "awesome_github"
-    },
-    {
-      "unicode": [
-        "\uf21b"
-      ],
-      "name": "fa-user-secret",
-      "file": "awesome_506"
-    },
-    {
-      "unicode": [
-        "\uf0c0"
-      ],
-      "name": "group",
-      "file": "awesome_group"
-    },
-    {
-      "unicode": [
-        "\uf007"
-      ],
-      "name": "user",
-      "file": "awesome_user"
-    },
-    {
-      "unicode": [
-        "\uf233"
-      ],
-      "name": "headers",
-      "file": "awesome_528"
-    },
-    {
-      "unicode": [
-        "\uf0c7"
-      ],
-      "name": "save",
-      "file": "awesome_save"
-    },
-    {
-      "unicode": [
-        "\uf084"
-      ],
-      "name": "key",
-      "file": "awesome_key"
-    },
-    {
-      "unicode": [
-        "\uf126"
-      ],
-      "name": "version",
-      "file": "awesome_code_fork"
-    },
-    {
-      "unicode": [
-        "\uf09d"
-      ],
-      "name": "idprovider",
-      "file": "awesome_credit_card"
-    },
-    {
-      "unicode": [
-        "\uf107"
-      ],
-      "name": "down",
-      "file": "awesome_angle_down"
-    },
-    {
-      "unicode": [
-        "\uf1f8"
-      ],
-      "name": "trash",
-      "file": "awesome_473"
-    },
-    {
-      "unicode": [
-        "\uf00c"
-      ],
-      "name": "check",
-      "file": "awesome_ok"
-    },
-    {
-      "unicode": [
-        "\uf0eb"
-      ],
-      "name": "idea",
-      "file": "awesome_light_bulb"
-    },
-    {
-      "unicode": [
-        "\uf1b8"
-      ],
-      "name": "recycle",
-      "file": "awesome_413"
-    },
-    {
-      "unicode": [
-        "\uf069"
-      ],
-      "name": "asterisk",
-      "file": "awesome_asterisk"
-    },
-    {
-      "unicode": [
-        "\uf096"
-      ],
-      "name": "squareempty",
-      "file": "awesome_check_empty"
-    },
-    {
-      "unicode": [
-        "\uf046"
-      ],
-      "name": "squarechecked",
-      "file": "awesome_check"
-    },
-    {
-      "unicode": [
-        "\uf0c1"
-      ],
-      "name": "link",
-      "file": "awesome_link"
-    },
-    {
-      "unicode": [
-        "\uf012"
-      ],
-      "name": "signal",
-      "file": "awesome_signal"
-    },
-    {
-      "unicode": [
-        "\uf017"
-      ],
-      "name": "clock",
-      "file": "awesome_time"
-    },
-    {
-      "unicode": [
-        "\uf0e0"
-      ],
-      "name": "envelope",
-      "file": "awesome_envelope"
-    },
-    {
-      "unicode": [
-        "\uf095"
-      ],
-      "name": "phone",
-      "file": "awesome_phone"
-    },
-    {
-      "unicode": [
-        "\uf01e"
-      ],
-      "name": "repeat",
-      "file": "awesome_repeat"
-    },
-    {
-      "unicode": [
-        "\uf13a"
-      ],
-      "name": "chevron_circle_down",
-      "file": "awesome_chevron_sign_down"
-    },
-    {
-      "unicode": [
-        "\uf137"
-      ],
-      "name": "chevron_circle_left",
-      "file": "awesome_chevron_sign_left"
-    },
-    {
-      "unicode": [
-        "\uf138"
-      ],
-      "name": "chevron_circle_right",
-      "file": "awesome_chevron_sign_right"
-    },
-    {
-      "unicode": [
-        "\uf139"
-      ],
-      "name": "chevron_circle_up",
-      "file": "awesome_chevron_sign_up"
-    },
-    {
-      "unicode": [
-        "\uf24d"
-      ],
-      "name": "clone",
-      "file": "awesome_553"
-    },
-    {
-      "unicode": [
-        "\uf073"
-      ],
-      "name": "calendar",
-      "file": "awesome_calendar"
-    },
-    {
-      "unicode": [
-        "\uf10c"
-      ],
-      "name": "circle_empty",
-      "file": "awesome_circle_blank"
-    },
-    {
-      "unicode": [
-        "\uf06a"
-      ],
-      "name": "warning_sign_circle",
-      "file": "awesome_exclamation_sign"
-    },
-    {
-      "unicode": [
-        "\uf119"
-      ],
-      "name": "frown",
-      "file": "awesome_frown"
-    },
-    {
-      "unicode": [
-        "\uf040"
-      ],
-      "name": "edit",
-      "file": "awesome_pencil"
-    }
-  ]
+   "name":"Superadmin",
+   "glyphs":[
+      {
+         "unicode":[
+            "\uF1E6"
+         ],
+         "name":"backend",
+         "file":"awesome_456"
+      },
+      {
+         "unicode":[
+            "\uf067"
+         ],
+         "name":"plus",
+         "file":"awesome_plus"
+      },
+      {
+         "unicode":[
+            "\uf055"
+         ],
+         "name":"plus_sign",
+         "file":"awesome_plus_sign"
+      },
+      {
+         "unicode":[
+            "\uf002"
+         ],
+         "name":"search",
+         "file":"awesome_search"
+      },
+      {
+         "unicode":[
+            "\uf0fb"
+         ],
+         "name":"fighter_jet",
+         "file":"awesome_fighter_jet"
+      },
+      {
+         "unicode":[
+            "\uf00d"
+         ],
+         "name":"remove",
+         "file":"awesome_remove"
+      },
+      {
+         "unicode":[
+            "\uf05b"
+         ],
+         "name":"endpoint",
+         "file":"awesome_screenshot"
+      },
+      {
+         "unicode":[
+            "\uf12e"
+         ],
+         "name":"template",
+         "file":"awesome_puzzle_piece"
+      },
+      {
+         "unicode":[
+            "\uf023"
+         ],
+         "name":"lock",
+         "file":"awesome_lock"
+      },
+      {
+         "unicode":[
+            "\uf09c"
+         ],
+         "name":"unlock",
+         "file":"awesome_unlock"
+      },
+      {
+         "unicode":[
+            "\uf13e"
+         ],
+         "name":"unlock_alt",
+         "file":"awesome_unlock_alt"
+      },
+      {
+         "unicode":[
+            "\uf0ee"
+         ],
+         "name":"cloud_upload",
+         "file":"awesome_cloud_upload"
+      },
+      {
+         "unicode":[
+            "\uf0ed"
+         ],
+         "name":"cloud_download",
+         "file":"awesome_cloud_download"
+      },
+      {
+         "unicode":[
+            "\uf179"
+         ],
+         "name":"apple",
+         "file":"awesome_apple"
+      },
+      {
+         "unicode":[
+            "\uf17b"
+         ],
+         "name":"android",
+         "file":"awesome_android"
+      },
+      {
+         "unicode":[
+            "\uf071"
+         ],
+         "name":"warning_sign",
+         "file":"awesome_warning_sign"
+      },
+      {
+         "unicode":[
+            "\uf283"
+         ],
+         "name":"credit_card",
+         "file":"awesome_credit_card"
+      },
+      {
+         "unicode":[
+            "\uf15b"
+         ],
+         "name":"file",
+         "file":"awesome_file"
+      },
+      {
+         "unicode":[
+            "\uf0c5"
+         ],
+         "name":"copy",
+         "file":"awesome_copy"
+      },
+      {
+         "unicode":[
+            "\uf013"
+         ],
+         "name":"cog",
+         "file":"awesome_cog"
+      },
+      {
+         "unicode":[
+            "\uf085"
+         ],
+         "name":"cogs",
+         "file":"awesome_cogs"
+      },
+      {
+         "unicode":[
+            "\uf08b"
+         ],
+         "name":"signout",
+         "file":"awesome_signout"
+      },
+      {
+         "unicode":[
+            "\uf0b0"
+         ],
+         "name":"filter",
+         "file":"awesome_filter"
+      },
+      {
+         "unicode":[
+            "\uf02b"
+         ],
+         "name":"tag",
+         "file":"awesome_tag"
+      },
+      {
+         "unicode":[
+            "\uf005"
+         ],
+         "name":"star",
+         "file":"awesome_star"
+      },
+      {
+         "unicode":[
+            "\uf006"
+         ],
+         "name":"star-o",
+         "file":"awesome_star_empty"
+      },
+      {
+         "unicode":[
+            "\uE001\uE008"
+         ],
+         "name":"lambda",
+         "file":"lambda"
+      },
+      {
+         "unicode":[
+            "\uf09b"
+         ],
+         "name":"github",
+         "file":"awesome_github"
+      },
+      {
+         "unicode":[
+            "\uf21b"
+         ],
+         "name":"fa-user-secret",
+         "file":"awesome_506"
+	 },{
+         "unicode":[
+            "\uf0c0"
+         ],
+         "name":"group",
+         "file":"awesome_group"
+	 },{
+		"unicode":[
+		   "\uf007"
+		],
+		"name":"user",
+		"file":"awesome_user"
+	 },{
+		"unicode":[
+		   "\uf233"
+		],
+		"name":"headers",
+		"file":"awesome_528"
+	 },{
+		"unicode":[
+		   "\uf0c7"
+		],
+		"name":"save",
+		"file":"awesome_save"
+
+	 },{
+		"unicode":[
+		   "\uf084"
+		],
+		"name":"key",
+		"file":"awesome_key"
+
+	 },{
+		"unicode":[
+		   "\uf126"
+		],
+		"name":"version",
+		"file":"awesome_code_fork"
+
+	 },{
+		"unicode":[
+		   "\uf09d"
+		],
+		"name":"idprovider",
+		"file":"awesome_credit_card"
+
+	 },{
+		"unicode":[
+		   "\uf107"
+		],
+		"name":"down",
+		"file":"awesome_angle_down"
+	 },{
+		"unicode":[
+		   "\uf1f8"
+		],
+		"name":"trash",
+		"file":"awesome_473"
+	 },{
+	   "unicode":[
+		  "\uf00c"
+	   ],
+	   "name":"check",
+	   "file":"awesome_ok"
+	 },{
+	   "unicode":[
+		  "\uf0eb"
+	   ],
+	   "name":"idea",
+	   "file":"awesome_light_bulb"
+	 },{
+	   "unicode":[
+		  "\uf1b8"
+	   ],
+	   "name":"recycle",
+	   "file":"awesome_413"
+
+	 },{
+	   "unicode":[
+		  "\uf069"
+	   ],
+	   "name":"asterisk",
+	   "file":"awesome_asterisk"
+	 },{
+	   "unicode":[
+		  "\uf096"
+	   ],
+	   "name":"squareempty",
+	   "file":"awesome_check_empty"
+	 },{
+	   "unicode":[
+		  "\uf0c1"
+	   ],
+	   "name":"link",
+	   "file":"awesome_link"
+	 },{
+	   "unicode":[
+		  "\uf012"
+	   ],
+	   "name":"signal",
+	   "file":"awesome_signal"
+
+	 },{
+	   "unicode":[
+		  "\uf017"
+	   ],
+	   "name":"clock",
+	   "file":"awesome_time"
+
+	 },{
+	   "unicode":[
+		  "\uf0e0"
+	   ],
+	   "name":"envelope",
+	   "file":"awesome_envelope"
+	 },{
+	   "unicode":[
+		  "\uf095"
+	   ],
+	   "name":"phone",
+	   "file":"awesome_phone"
+
+
+	 },{
+	   "unicode":[
+		  "\uf01e"
+	   ],
+	   "name":"repeat",
+	   "file":"awesome_repeat"
+	 },{
+	   "unicode":[
+		  "\uf040"
+	   ],
+	   "name":"edit",
+	   "file":"awesome_pencil"
+	 }
+
+   ]
 }
