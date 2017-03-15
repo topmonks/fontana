@@ -343,6 +343,69 @@
       ],
       "name": "repeat",
       "file": "awesome_repeat"
+    },
+    {
+      "unicode": [
+        "\f13a"
+      ],
+      "name": "chevron_circle_down",
+      "file": "awesome_chevron_sign_down"
+    },
+    {
+      "unicode": [
+        "\f137"
+      ],
+      "name": "chevron_circle_left",
+      "file": "awesome_chevron_sign_left"
+    },
+    {
+      "unicode": [
+        "\f138"
+      ],
+      "name": "chevron_circle_right",
+      "file": "awesome_chevron_sign_right"
+    },
+    {
+      "unicode": [
+        "\f139"
+      ],
+      "name": "chevron_circle_up",
+      "file": "awesome_chevron_sign_up"
+    },
+    {
+      "unicode": [
+        "\f24d"
+      ],
+      "name": "clone",
+      "file": "awesome_553"
+    },
+    {
+      "unicode": [
+        "\f073"
+      ],
+      "name": "calendar",
+      "file": "awesome_calendar"
+    },
+    {
+      "unicode": [
+        "\f10c"
+      ],
+      "name": "circle_empty",
+      "file": "awesome_circle_blank"
+    },
+    {
+      "unicode": [
+        "\f06a"
+      ],
+      "name": "warning_sign_circle",
+      "file": "awesome_exclamation_sign"
+    },
+    {
+      "unicode": [
+        "\f119"
+      ],
+      "name": "frown",
+      "file": "awesome_frown"
     }
   ]
 }
