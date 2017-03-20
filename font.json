@@ -304,6 +304,13 @@
     },
     {
       "unicode": [
+        "\f046"
+      ],
+      "name": "squarechecked",
+      "file": "awesome_check"
+    },
+    {
+      "unicode": [
         "\uf0c1"
       ],
       "name": "link",
@@ -406,6 +413,13 @@
       ],
       "name": "frown",
       "file": "awesome_frown"
+    },
+    {
+      "unicode": [
+        "\uf040"
+      ],
+      "name": "edit",
+      "file": "awesome_pencil"
     }
   ]
 }
