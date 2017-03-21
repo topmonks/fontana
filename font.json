@@ -434,7 +434,14 @@
       ],
       "name": "compress",
       "file": "awesome_resize_small"
-    }
+  },
+  {
+	"unicode": [
+	  "\uf013\uf013"
+	],
+	"name": "backendsettings",
+	"file": "backendsettings"
+  }
 
   ]
 }
