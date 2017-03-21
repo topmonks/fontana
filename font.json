@@ -338,6 +338,12 @@
 	   ],
 	   "name":"edit",
 	   "file":"awesome_pencil"
+	 },{
+	   "unicode":[
+		  "\u27A2"
+	   ],
+	   "name":"xml",
+	   "file":"xml"
 	 }
 
    ]
