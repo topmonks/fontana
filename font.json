@@ -427,6 +427,14 @@
       ],
       "name": "xml",
       "file": "xml"
+    },
+    {
+      "unicode": [
+        "\uf066"
+      ],
+      "name": "compress",
+      "file": "awesome_resize_small"
     }
+
   ]
 }
