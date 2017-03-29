@@ -1,3 +1,4 @@
+const path = require('path');
 const program = require('commander');
 const converter = require('./lib/index');
 
@@ -13,8 +14,9 @@ if (program.all) {
   converter.generateAll();
 } else {
   converter.generate({
-    fontConfig: require(program.font || './font.json'),
-    outputPath: program.output || './generated',
-    glyphsPath: program.input || 'icons'
+    fontConfig: require(program.font || path.join(__dirname, 'font.json')),
+    outputPath: path.join('..', program.output || 'generated'),
+    glyphsPath: program.input || 'icons',
+    fontSpecimen: true
   });
 }
