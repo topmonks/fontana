@@ -36,8 +36,11 @@ li {
 	flex-basis: 4rem;
 	background-color: white;
 	padding: 0.5rem;
-	min-width: 4rem;
 	border: 1px solid #EFEFEF;
+	cursor: pointer;
+}
+li.selected{
+	background: lightblue;
 }
 li:hover {
 	background-color: #DEDEDE;
@@ -58,7 +61,31 @@ i {
 }
 </style>
 
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
 
+<script>
+$().ready(function() {
+	$('li').click(function() {
+		$(this).toggleClass('selected');
+		generateFontFile()
+	})
+});
+function generateFontFile() {
+	var glyphs = $('li.selected').map(function(element) {
+		return {
+	      "unicode": [
+	        $('b', this).html()
+	      ],
+	      "name": $('i b', this).html(),
+	      "file": $('i', this).html()
+	  };
+  });
+}
+
+</script>
 
  <!--link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"-->
 <body>
