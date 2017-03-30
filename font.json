@@ -48,7 +48,7 @@
         "\uf05b"
       ],
       "name": "endpoint",
-      "file": "endpoint"
+      "file": "monk_endpoint"
     },
     {
       "unicode": [
@@ -188,7 +188,7 @@
         "\u03BB"
       ],
       "name": "lambda",
-      "file": "lambda"
+      "file": "monk_lambda"
     },
     {
       "unicode": [
@@ -223,7 +223,7 @@
         "\uf233"
       ],
       "name": "headers",
-      "file": "header"
+      "file": "monk_header"
     },
     {
       "unicode": [
@@ -237,7 +237,7 @@
         "\uf084"
       ],
       "name": "key",
-      "file": "awesome_key"
+      "file": "monk_key"
     },
     {
       "unicode": [
@@ -426,7 +426,7 @@
         "\u27A2"
       ],
       "name": "xml",
-      "file": "xml"
+      "file": "monk_xml"
     },
     {
       "unicode": [
@@ -440,7 +440,7 @@
         "\uf013\uf013"
       ],
       "name": "backendsettings",
-      "file": "backendsettings"
+      "file": "monk_backendsettings"
     },
     {
       "unicode": [
