@@ -1,3 +1,4 @@
+const path = require('path');
 const program = require('commander');
 const converter = require('./lib/index');
 
@@ -9,15 +10,19 @@ program
 	.option('-f, --font [optional]', 'font config file (default "./font.json")')
 	.parse(process.argv);
 
-
 program.input = program.input || './icons';
 
 if (program.all) {
-	converter.generateAll();
+	converter.generateAll({
+		outputPath: path.join('..', program.output || 'generated'),
+		glyphsPath: program.input || 'icons',
+		fontSpecimen: true
+	});
 } else {
 	converter.generate({
-		fontConfig: program.all ? converter.fetchConfig(program.input) : require(program.font || './font.json'),
-		outputPath: program.output || './generated',
-		glyphsPath: program.input
+		fontConfig: require(program.font || path.join(__dirname, 'font.json')),
+		outputPath: path.join('..', program.output || 'generated'),
+		glyphsPath: program.input || 'icons',
+		fontSpecimen: true
 	});
 }
