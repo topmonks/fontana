@@ -59,6 +59,24 @@ b {
 i {
 	color: #C63D0F;
 }
+.filename {
+	font-family: monospace;
+	font-style: normal;
+}
+textarea {
+	height: 80vh;
+	width: 100%;
+}
+.layout {
+	display: flex;
+}
+.layout ul {
+	flex:3;
+}
+.layout textarea {
+	flex: 1;
+}
+
 </style>
 
 <script
@@ -70,17 +88,17 @@ i {
 $().ready(function() {
 	$('li').click(function() {
 		$(this).toggleClass('selected');
-		generateFontFile()
+		$('textarea').val(JSON.stringify({"name": "MyFont",glyphs: generateFontFile()}, undefined,  ' '))
 	})
 });
 function generateFontFile() {
-	var glyphs = $('li.selected').map(function(element) {
+	return $.makeArray($('li.selected')).map(function(element) {
 		return {
 	      "unicode": [
-	        $('b', this).html()
+	        $('div', element).html()
 	      ],
-	      "name": $('i b', this).html(),
-	      "file": $('i', this).html()
+	      "name": $('i.name', element).html(),
+	      "file": $('i.file', element).html()
 	  };
   });
 }
@@ -89,9 +107,18 @@ function generateFontFile() {
 
  <!--link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"-->
 <body>
-<h1><%= name %></h1>
-<ul>
-	<% glyphs.forEach(function(glyph){ %><li><div><%= glyph.unicode %></div><i><%= glyph.name %><b></i>U+<%= decode(glyph.unicode) %></b></li><% }); %>
-</ul>
+	<h1><%= name %></h1>
+	<div class='layout'>
+	<ul>
+		<% glyphs.forEach(function(glyph){ %>
+			<li>
+				<i class='name'><%= glyph.name %></i>
+				<div><%= glyph.unicode %></div>
+				<i class="file"><%= glyph.file %></i>
+				<b>U+<%= decode(glyph.unicode) %></b>
+			</li>
+		<% }); %>
+	</ul>
+	<textarea></textarea>
 </body>
 </html>
