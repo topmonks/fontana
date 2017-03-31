@@ -16,34 +16,26 @@ program
 program.input = path.join('.', program.input || 'icons');
 
 let outputPath = path.join('.', program.output || 'generated');
+let glyphsPath = path.join('.', program.input || 'icons');
+let fontPath = program.font || path.join(__dirname, 'font.json');
+
 try {
-	fs.mkdirSync(outputPath);
-} catch (e) {}
-
-
-if (program.all) {
-	converter.generateAll({
+	let fontConfig;
+	if (program.all) {
+		fontConfig = converter.fetchConfig(glyphsPath);
+	} else {
+		fontConfig = JSON.parse(fs.readFileSync(fontPath, 'utf8'));
+	}
+	converter.generate({
+		fontConfig: fontConfig,
 		outputPath: outputPath,
 		glyphsPath: program.input || 'icons',
-		fontSpecimen: true
+		fontSpecimen: !!program.specimen
 	});
-} else {
-	let fontPath = program.font || path.join(__dirname, 'font.json');
-	try {
-		let fontFile = fs.readFileSync(fontPath, 'utf8');
-		let fontConfig = JSON.parse(fontFile);
-
-		converter.generate({
-			fontConfig: fontConfig,
-			outputPath: outputPath,
-			glyphsPath: program.input || 'icons',
-			fontSpecimen: !!program.specimen
-		});
-	} catch (e) {
-		if (e.code === 'ENOENT') {
-			console.error(`Unable to find font file "${fontPath}" `);
-		} else {
-			console.error(e);
-		}
+} catch (e) {
+	if (e.code === 'ENOENT') {
+		console.error(`Unable to find font JSON file "${fontPath}" `);
+	} else {
+		console.error(e);
 	}
 }
