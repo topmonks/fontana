@@ -41,3 +41,6 @@ Font config file
     }
 }
 ```
+
+## Note
+Not sure where to place your glyph in unicode see https://en.wikipedia.org/wiki/Private_Use_Areas
