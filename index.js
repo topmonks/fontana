@@ -10,6 +10,7 @@ program
 	.option('-a, --all  [optional]', 'generate font from all icon in icon folder ')
 	.option('-i, --input [optional]', 'svg icon source path (default "./icons/")')
 	.option('-f, --font [optional]', 'font config file (default "./font.json")')
+	.option('-l, --list [optional]', 'generates SCSS map - name: unicode')
 	.option('-s, --specimen [optional]', 'generate specimen')
 	.parse(process.argv);
 
@@ -32,6 +33,12 @@ try {
 		glyphsPath: program.input || 'icons',
 		fontSpecimen: !!program.specimen
 	});
+	if (program.list) {
+		converter.generateList({
+			fontConfig: fontConfig,
+			outputPath: outputPath
+		});
+	}
 } catch (e) {
 	if (e.code === 'ENOENT') {
 		console.error(`Unable to find font JSON file "${fontPath}" `);
