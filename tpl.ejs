@@ -11,7 +11,11 @@ body {
 }
 @font-face {
     font-family: "<%= name %>";
-    src: url('<%= name %>.ttf');
+	src: url('<%= name %>.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('<%= name %>.woff2') format('woff2'), /* Super Modern Browsers */
+          url('<%= name %>.woff') format('woff'), /* Pretty Modern Browsers */
+          url('<%= name %>.ttf')  format('truetype'), /* Safari, Android, iOS */
+          url('<%= name %>.svg#<%= name %>') format('svg'); /* Legacy iOS */
 }
 
 
